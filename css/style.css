@@ -1,0 +1,77 @@
+body{
+    text-align:center;
+    background-color: lightgray
+}
+
+.headerImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+
+nav{
+    padding: 5px;
+    text-align: center;    
+}
+h1{
+    color: cadetblue;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+.navigation{
+    text-decoration: none;
+    margin: 5px;
+    border: solid 1px;
+    padding: 3px;
+    text-align: center;
+   
+}
+h2{
+    color: cadetblue;
+    text-align: center;
+}
+
+
+ul {
+    text-align: center;
+    list-style: none;
+   
+}
+.fl-left{
+    float: left;
+}
+.map{
+    width: 600px;
+    margin-top: 10px;
+    
+}
+.container-1{
+    
+    margin-left: auto;
+    margin-right: auto; 
+    width : 93%;   
+}
+.orderedList{
+    margin : 0 47%;
+}
+hr
+{
+    width: 93%;
+}
+.icons{
+    width: 30px;
+}
+.footer{
+    text-decoration: none;
+    border: none;
+}
+a{
+    text-decoration: none;
+}
