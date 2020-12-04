@@ -1,77 +1,67 @@
-body{
-    text-align:center;
-    background-color: lightgray
+.main{
+    width: 1200px;
+    margin: 0  auto;   
 }
 
-.headerImage{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;   
-}
-
-
-nav{
-    padding: 5px;
-    text-align: center;    
-}
-h1{
-    color: cadetblue;
-    text-align: center;
-}
-p{
-    text-align: justify;
-    margin-left: 50px;
-    margin-right: 50px;
-    
-    
-}
-.navigation{
-    text-decoration: none;
-    margin: 5px;
-    border: solid 1px;
-    padding: 3px;
-    text-align: center;
-   
-}
-h2{
-    color: cadetblue;
-    text-align: center;
-}
-
-
-ul {
-    text-align: center;
-    list-style: none;
-   
-}
-.fl-left{
-    float: left;
-}
-.map{
-    width: 600px;
-    margin-top: 10px;
-    
-}
 .container-1{
+    display: flex;
+}
+.box-1{
     
-    margin-left: auto;
-    margin-right: auto; 
-    width : 93%;   
+   background-color:#5dbcd2;
+   width: 30%;
+   height: 200px;
+   margin:5px 5px 5px 0px;
+   
 }
-.orderedList{
-    margin : 0 47%;
+.box-2{ 
+    background-color:#ffaf47;
+    width: 70%;
+    height: 200px;
+    margin:5px 0px 5px 0px;
+   
+    
 }
-hr
-{
-    width: 93%;
+.container-2{
+    background-color: #ff7747;
+    width: 100%;
+    height:300px;
+    margin-bottom: 5px;   
 }
-.icons{
-    width: 30px;
+.container-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
 }
-.footer{
-    text-decoration: none;
-    border: none;
+.container-3 > article{
+    background-color: #ffd647;
+    width: 32.8%;
+    height:200px;      
 }
-a{
-    text-decoration: none;
+footer {
+    margin-top: 5px;
+    height: 200px;
+    background-color:#fdc1ff ;
+    display: none;
 }
+@media screen and (max-width: 900px) { 
+  .container-3 > article{
+      height: 400px;
+  }
+  footer {
+    display: block;
+  
+}
+@media screen and (max-width: 700px) { 
+    .container-3 > article{
+        height: 200px;
+        width: 100%;
+        margin-top: 5px;
+    }
+    footer{
+        display: none;
+    }
+}
+
